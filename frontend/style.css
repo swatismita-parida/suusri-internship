@@ -275,3 +275,69 @@ body {
     padding: 20px;
   }
 }
+
+/* ---------- TASK MANAGER PAGE ---------- */
+.task-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 30px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.task-form input:focus {
+  outline: none;
+  border-color: #C9A227;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  background: white;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  border-left: 4px solid #C9A227;
+}
+
+.task-item span {
+  font-size: 15px;
+}
+
+.delete-btn {
+  background-color: #6B1E2A;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  background-color: #4d1520;
+}
+
+.empty-message {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
